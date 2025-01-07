@@ -1,0 +1,13 @@
+{
+  "name": "ollie-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "commit": "pnpm dlx git-cz"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
