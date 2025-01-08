@@ -13,5 +13,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^7.2.1",
+    "@ollie-cli/utils": "workspace:^",
+    "ora": "^8.1.1"
+  }
 }
