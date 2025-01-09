@@ -43,17 +43,14 @@ async function create() {
   if (!(await pkg.exists())) {
     const spinner = ora("下载模版中...").start();
     await pkg.install();
-    await sleep(1000);
     spinner.stop();
   } else {
     const spinner = ora("更新模版中...").start();
     await pkg.update();
-    await sleep(1000);
     spinner.stop();
   }
 
   const spinner = ora("创建项目中...").start();
-  await sleep(1000);
 
   const templatePath = path.join(pkg.npmFilePath, "template");
 
@@ -74,12 +71,6 @@ async function create() {
   }
 
   spinner.stop();
+  console.log(`项目创建成功： ${targetPath}`);
 }
-function sleep(timeout: number) {
-  return new Promise((resolve) => {
-    setTimeout(resolve, timeout);
-  });
-}
-create();
-
 export default create;
