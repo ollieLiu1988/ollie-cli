@@ -1,5 +1,16 @@
 # @ollie-cli/cli
 
+## 1.0.0
+
+### Major Changes
+
+- fe40228: 模板下载发版
+
+### Patch Changes
+
+- Updated dependencies [fe40228]
+  - @ollie-cli/create@1.0.0
+
 ## 0.0.2
 
 ### Patch Changes
