@@ -1,5 +1,11 @@
 # @ollie-cli/template-react
 
+## 1.0.2
+
+### Patch Changes
+
+- projectName 可替换
+
 ## 1.0.1
 
 ### Patch Changes
